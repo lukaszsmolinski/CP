@@ -1,7 +1,7 @@
 # CP
 This repository contains my solutions to assignments for Concurrent Programming course at the University of Warsaw (MIMUW). 
 
-## Executor
+## executor
 
 This project implements an executor program that can run multiple background processes and interact with them through a set of commands.
 
@@ -32,6 +32,6 @@ Once the executor is started, it will read commands from the standard input and 
 - ```quit``` or EOF - Exits the executor, terminating all running tasks.
 
 
-## Workshop
+## workshop
 
 This repository contains a Java program that simulates workshops with multiple workstations. Each workstation has a unique identifier and can be used by any user. Users are represented by Java threads and can enter the workshop, occupy a workstation, and switch between workstations using the Workshop interface methods provided. The program can handle multiple independent workshops with disjoint sets of workstations. Users can occupy workstations indefinitely and can enter and leave the workshop at any time. The program provides thread-safe coordination of user access to workstations.
